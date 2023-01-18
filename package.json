@@ -1,0 +1,31 @@
+{
+  "name": "node-homework-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon indexnpm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitalik211287/node-homework-01.git"
+  },
+  "author": "Vitalii Poliakov <vitalik211287@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitalik211287/node-homework-01/issues"
+  },
+  "homepage": "https://github.com/vitalik211287/node-homework-01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "cross-env": "^7.0.3",
+    "nanoid": "^4.0.0",
+    "yargs": "^17.6.2"
+  }
+}
